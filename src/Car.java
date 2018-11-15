@@ -84,4 +84,11 @@ public class Car implements Vehicle {
           System.out.println("change in");
 
        }
+
+
+		
+       public void githubchanges(){
+         System.out.println("Github changes");
+       }
+
 }
