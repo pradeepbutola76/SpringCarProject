@@ -79,5 +79,9 @@ public class Car implements Vehicle {
 	public void showFuel() {
 		fuel.consume();
 	}
+        public void changeDone()
+       {
+          System.out.println("change in");
 
+       }
 }
