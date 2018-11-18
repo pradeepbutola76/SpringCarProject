@@ -99,7 +99,7 @@ public class Car implements Vehicle {
 	}
 
 	public Car() {
-
+		System.out.println("Default Constructor");
 	}
 
 }
