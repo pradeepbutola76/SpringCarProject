@@ -9,13 +9,19 @@ public class RunVehicle {
 	private Car car;
 	@Autowired
 	private Bike bike;
-
+	@Autowired
+	private VehcileDao dao;
 	public void run() {
+
+		
+		 dao.getConnection();
+		//System.out.println(bmw);
 		car.start();
 		car.headlight();
 		car.horn();
 		car.stop();
 		car.showFuel();
+		car.toString();
 		bike.start();
 		bike.headlight();
 		bike.horn();
