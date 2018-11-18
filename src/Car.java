@@ -79,9 +79,27 @@ public class Car implements Vehicle {
 	public void showFuel() {
 		fuel.consume();
 	}
-        public void changeDone()
-       {
-          System.out.println("change in");
 
-       }
+	public void changesForGit() {
+		System.out.println("hello world");
+	}
+
+	@Override
+	public String toString() {
+		return "Car [type=" + type + ", noWheel=" + noWheel + ", seat=" + seat + ", fuelType=" + fuelType
+				+ ", fuelCapacity=" + fuelCapacity + "]";
+	}
+
+	public Car(String type, int noWheel, int seat, String fuelType, int fuelCapacity) {
+		this.type = type;
+		this.noWheel = noWheel;
+		this.seat = seat;
+		this.fuelType = fuelType;
+		this.fuelCapacity = fuelCapacity;
+	}
+
+	public Car() {
+
+	}
+
 }
